@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                     <div className="avatar">
                         <div className="w-12 rounded-full">
-                            <img src={neasher} alt='neasher' />
+                            <Link to='/'><img src={neasher} alt='neasher' /></Link>
                         </div>
                     </div>
                 </div>
