@@ -1,6 +1,8 @@
 import React from 'react';
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import neasher from '../../../src/assets/neasher-bg1.png';
+import resume from '../../../src/assets/Resume/resume of Neasher.pdf';
 
 const Navbar = () => {
     return (
@@ -46,7 +48,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="btn btn-accent text-white font-bold">Resume</Link>
+                    <a href={resume}>
+                        <button className="btn btn-accent text-white font-bold">Resume <span className='text-xl mx-2'><FaCloudDownloadAlt /></span> </button>
+                    </a>
                 </div>
             </div>
         </div>
