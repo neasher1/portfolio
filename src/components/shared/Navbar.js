@@ -18,13 +18,13 @@ const Navbar = () => {
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg- 
                          base-100 rounded-box w-52">
                             <li>
-                                <Link to='/projects' className='font-bold hover:bg-[#EDF2F7]'>Projects</Link>
+                                <a href='#projects' className='font-bold hover:bg-[#EDF2F7]'>Projects</a>
                             </li>
                             <li>
-                                <Link to='/about' className='font-bold hover:bg-[#EDF2F7]'>About</Link>
+                                <a href='#about' className='font-bold hover:bg-[#EDF2F7]'>About</a>
                             </li>
                             <li>
-                                <Link to='/contact' className='font-bold hover:bg-[#EDF2F7]'>Contact</Link>
+                                <a href='#contact' className='font-bold hover:bg-[#EDF2F7]'>Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -37,13 +37,13 @@ const Navbar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li>
-                            <Link to='/projects' className='font-bold hover:bg-[#EDF2F7]'>Projects</Link>
+                            <a href='#projects' className='font-bold hover:bg-[#EDF2F7]'>Projects</a>
                         </li>
                         <li>
-                            <Link to='/about' className='font-bold hover:bg-[#EDF2F7]'>About</Link>
+                            <a href='#about' className='font-bold hover:bg-[#EDF2F7]'>About</a>
                         </li>
                         <li>
-                            <Link to='/contact' className='font-bold hover:bg-[#EDF2F7]'>Contact</Link>
+                            <a href='#contact' className='font-bold hover:bg-[#EDF2F7]'>Contact</a>
                         </li>
                     </ul>
                 </div>
