@@ -8,7 +8,7 @@ import resume from '../../../src/assets/Resume/resume of Neasher.pdf';
 const Header = () => {
 
     return (
-        <div className="hero">
+        <div id='#about' className="hero">
             <div className="hero-content flex-col lg:flex-row gap-x-16">
                 <div className="avatar">
                     <div className="w-24 rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">

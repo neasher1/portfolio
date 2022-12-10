@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from '../../Pages/Projects/Projects';
+import Contact from '../Contact';
 import Header from '../Header';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <div className='mx-6'>
                 <Header></Header>
                 <Projects></Projects>
+                <Contact></Contact>
             </div>
         </div>
     );
