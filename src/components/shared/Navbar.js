@@ -48,7 +48,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href={resume}>
+                    <a href={resume} target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-accent text-white font-bold">Resume <span className='text-xl mx-2'><FaCloudDownloadAlt /></span> </button>
                     </a>
                 </div>

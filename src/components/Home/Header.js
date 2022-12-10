@@ -37,7 +37,7 @@ const Header = () => {
                         <a href='https://www.facebook.com/neasher.ahmed/' className='text-2xl p-3 rounded shadow-2xl hover:bg-accent hover:text-white transition duration-150 hover:ease-in' target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
                         <a href='https://www.linkedin.com/in/neasher/' className='text-2xl p-3 rounded shadow-2xl hover:bg-accent hover:text-white transition duration-150 hover:ease-in' target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                         <a href='https://github.com/neasher1' className='text-2xl p-3 rounded shadow-2xl hover:bg-accent hover:text-white transition duration-150 hover:ease-in' target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                        <a href={resume} className='text-2xl p-3 rounded shadow-2xl hover:bg-accent hover:text-white transition duration-150 hover:ease-in'><FaCloudDownloadAlt /></a>
+                        <a href={resume} target="_blank" rel="noopener noreferrer" className='text-2xl p-3 rounded shadow-2xl hover:bg-accent hover:text-white transition duration-150 hover:ease-in'><FaCloudDownloadAlt /></a>
                     </div>
                 </div>
             </div>
