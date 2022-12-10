@@ -13,7 +13,7 @@ const Projects = () => {
     console.log(projects);
 
     return (
-        <div id='projects' className="max-w-[992px] mx-auto my-12">
+        <div id='projects' className="max-w-[992px] mx-auto my-16">
             <div className='mb-8'>
                 <h2 className="text-3xl font-bold mb-2">My Projects</h2>
                 <hr className='w-40' />

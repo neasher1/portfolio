@@ -81,7 +81,7 @@ const Contact = () => {
                 </div>
 
                 <div className='mx-auto mt-2'>
-                    <input className='btn btn-accent w-96 text-white my-4' type="submit" value="Submit" />
+                    <input className='btn btn-accent w-48 text-white my-4' type="submit" value="Submit" />
                 </div>
             </form>
         </div>
