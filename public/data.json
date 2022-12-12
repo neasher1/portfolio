@@ -1,8 +1,18 @@
 [
     {
-        "id": "6394a7225d20b11e0a247a6a",
+        "id": "1",
         "title": "Car Zone",
-        "description": "Buy Sell Second Hands Car",
+        "description": [
+            {
+                "1": "Admin can interact with All Sellers, All Buyers, and Reported Items (Coming Soon)"
+            },
+            {
+                "2": "Buyer can book a car and finally purchase the car"
+            },
+            {
+                "3": "Sellers can upload a new car and he can advertise their unsold car"
+            }
+        ],
         "img": "https://i.ibb.co/SK7gQ5J/1.png",
         "technology": [
             "ReactJS, NodeJS, JS"
@@ -12,7 +22,7 @@
         "github": "https://github.com/neasher1/car-zone-client"
     },
     {
-        "id": "6394a722368eaa1bc080a0d4",
+        "id": "2",
         "title": "Doctors Portal",
         "description": "Patient can book an appointment",
         "img": "https://i.ibb.co/SQkFzt7/2.png",
@@ -23,7 +33,7 @@
         "github": "https://github.com/neasher1/doctors-portal-client"
     },
     {
-        "id": "6394a7225a48962c09a94c28",
+        "id": "3",
         "title": "Pepperoni",
         "description": "Buy Pizza & Pizza Review",
         "img": "https://i.ibb.co/1vcHVXh/3.png",
@@ -35,7 +45,7 @@
         "github": "https://github.com/neasher1/Pepperoni-Pizza-client"
     },
     {
-        "id": "6394a722368eaa1bc080a0d4",
+        "id": "4",
         "title": "Learn With Neasher",
         "description": "E-learning Buy Courses",
         "img": "https://i.ibb.co/R6fpvx8/4.png",

@@ -5,7 +5,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 const Skill = () => {
     return (
-        <div id='contact' className="max-w-[992px] mx-auto my-16 mb-24">
+        <div className="max-w-[992px] mx-auto my-16 mb-24">
             <div className='mb-8'>
                 <h2 className="text-3xl font-bold mb-2">Professional Skill</h2>
                 <hr className='w-56' />
@@ -13,7 +13,7 @@ const Skill = () => {
 
             <div className='mx-6 text-slate-600'>
                 <div className='flex flex-col md:flex-row items-center justify-between'>
-                    <div>
+                    <div className='mb-8 md:m-0'>
                         <h2 className="text-3xl font-semibold mb-4">Front End</h2>
                         <div className='flex flex-row gap-4'>
                             <button className='text-2xl p-4 border border-accent rounded shadow-2xl hover:bg-accent hover:text-white transition duration-150 hover:ease-in'>

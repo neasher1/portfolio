@@ -2,6 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
     const { img, title, description, isItNew, technology, liveSite, github } = project;
+    console.log(project);
     return (
         <div className="card shadow-xl">
             <figure className='px-5 pt-5'>
@@ -21,7 +22,15 @@ const Project = ({ project }) => {
                         <div className="badge">{technology}</div>
                     </div>
                 </div>
-                <p className='mt-1'>{description} <button className='btn btn-xs capitalize'>View More ...</button></p>
+
+                {/* <p className='mt-1'>{description} <button className='btn btn-xs capitalize'>View More ...</button></p> */}
+
+                {/* {
+                    description.map(descript => <p>{descript}</p>)
+                } */}
+
+
+
                 <div className="card-actions flex flex-row items-center justify-between mt-3">
                     <a href={github} target="_blank" rel="noopener noreferrer">
                         <button className='btn btn-accent text-white font-bold'>View Project</button>
