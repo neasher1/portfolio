@@ -3,15 +3,9 @@
         "id": "1",
         "title": "Car Zone",
         "description": [
-            {
-                "1": "Admin can interact with All Sellers, All Buyers, and Reported Items (Coming Soon)"
-            },
-            {
-                "2": "Buyer can book a car and finally purchase the car"
-            },
-            {
-                "3": "Sellers can upload a new car and he can advertise their unsold car"
-            }
+            "Admin can interact with All Sellers, All Buyers, and Reported Items (Coming Soon)",
+            "Buyer can book a car and finally purchase the car",
+            "Sellers can upload a new car and he can advertise their unsold car"
         ],
         "img": "https://i.ibb.co/SK7gQ5J/1.png",
         "technology": [
@@ -24,7 +18,11 @@
     {
         "id": "2",
         "title": "Doctors Portal",
-        "description": "Patient can book an appointment",
+        "description": [
+            "Patient can book an appointment in different time slots as his/her needs",
+            "Admin has all patients and all users access, he can delete anyone",
+            "After making an appointment, a patient needs to pay with stripe for a confirmation appointment"
+        ],
         "img": "https://i.ibb.co/SQkFzt7/2.png",
         "technology": [
             "ReactJS, NodeJS, JS"
@@ -35,7 +33,11 @@
     {
         "id": "3",
         "title": "Pepperoni",
-        "description": "Buy Pizza & Pizza Review",
+        "description": [
+            "Option for Add a new Pizza item & Applied User Authentication",
+            "On the pizza details page a user can submit a review and see all previous user reviews",
+            "A User can see, modify or delete the reviews on my reviews page"
+        ],
         "img": "https://i.ibb.co/1vcHVXh/3.png",
         "technology": [
             "ReactJS, NodeJS, JS"
@@ -47,7 +49,11 @@
     {
         "id": "4",
         "title": "Learn With Neasher",
-        "description": "E-learning Buy Courses",
+        "description": [
+            "A user can buy a course",
+            "After buying, he can download purchasing data",
+            "There implemented dynamic routing, dynamic register, and login and private routing for safety"
+        ],
         "img": "https://i.ibb.co/R6fpvx8/4.png",
         "technology": [
             "ReactJS, NodeJS, JS"

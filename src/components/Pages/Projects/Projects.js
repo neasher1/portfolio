@@ -8,9 +8,12 @@ const Projects = () => {
     useEffect(() => {
         fetch("data.json")
             .then(res => res.json())
-            .then(data => setProjects(data))
+            .then(data => {
+                setProjects(data)
+                // console.log(data.description);
+            })
     }, []);
-    console.log(projects);
+    // console.log(projects.description);
 
     return (
         <div id='projects' className="max-w-[992px] mx-auto my-16">

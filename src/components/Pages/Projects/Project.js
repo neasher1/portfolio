@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
     const { img, title, description, isItNew, technology, liveSite, github } = project;
-    console.log(project);
+    // console.log(description);
     return (
         <div className="card shadow-xl">
             <figure className='px-5 pt-5'>
@@ -23,13 +23,11 @@ const Project = ({ project }) => {
                     </div>
                 </div>
 
-                {/* <p className='mt-1'>{description} <button className='btn btn-xs capitalize'>View More ...</button></p> */}
-
-                {/* {
-                    description.map(descript => <p>{descript}</p>)
-                } */}
-
-
+                {
+                    description.map(des => <li>{des}</li>)
+                }
+                <p className='text-center'><button className="btn btn-xs text-center">View More ...</button>
+                </p>
 
                 <div className="card-actions flex flex-row items-center justify-between mt-3">
                     <a href={github} target="_blank" rel="noopener noreferrer">
